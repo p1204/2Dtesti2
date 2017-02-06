@@ -46,7 +46,7 @@ public class Rotate : MonoBehaviour {
             transform.Rotate(Vector3.forward * -1);
             playerScript.animat.SetFloat("Speed", 1);
         }else{
-            transform.Rotate(Vector3.forward * -2);
+            transform.Rotate(Vector3.forward * -1.4F);
             playerScript.animat.SetFloat("Speed", 2);
         }
     }

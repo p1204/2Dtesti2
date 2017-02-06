@@ -50,8 +50,8 @@ public class PlayerScript : MonoBehaviour {
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
-        InventoryCanvas.gameObject.SetActive(false);
-        inventoryOpen = false;
+        //InventoryCanvas.gameObject.SetActive(false);
+        //inventoryOpen = false;
         animat = GetComponent<Animator>();
         level = GameObject.Find("demoLevelBase");
         rotator = level.GetComponent<Rotate>();
@@ -62,6 +62,7 @@ public class PlayerScript : MonoBehaviour {
         isgrounded = Physics2D.OverlapCircle(groundCheck.position, groundradius, groundIs);
         isledge1 = Physics2D.OverlapCircle(LedgeCheck1.position, ledgeradius, Ledge1);
         isledge2 = Physics2D.OverlapCircle(LedgeCheck2.position, ledgeradius, Ledge2);
+        isledge3 = Physics2D.OverlapCircle(LedgeCheck3.position, ledgeradius, Ledge3);
         animat.SetBool("Ground", isgrounded);
         animat.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y));
         if (GetComponent<Rigidbody2D>().velocity.y <-1f && isgrounded==false)
@@ -131,8 +132,7 @@ public class PlayerScript : MonoBehaviour {
                 Debug.Log("Turning left");
                 animat.SetBool("Turning", true);
             }
-
-          
+   
             if(facingRight==false && rightTouchingWall==false) {
                 Debug.Log("Moving left");
                 rotator.rotateLeft();
@@ -172,13 +172,12 @@ public class PlayerScript : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.S) && isgrounded== true)
         {
-            isledge3 = Physics2D.OverlapCircle(LedgeCheck3.position, ledgeradius, Ledge3);
+            
             if (isledge3 == false) {
                 Debug.Log("Climb down");
-                //animat.SetBool("Climbing Down", true);
-                climbDown();
+                turnAround();
+                animat.SetBool("Climb Down", true);
             }
-
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isgrounded==true)
@@ -190,8 +189,7 @@ public class PlayerScript : MonoBehaviour {
                 Jump();
         }
 
-        if (Input.GetKey(KeyCode.Space)){
-           
+        if (Input.GetKey(KeyCode.Space)){        
             if (isledge1 == false && isledge2 == true && isgrounded == false)
             {
                 GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
@@ -201,18 +199,19 @@ public class PlayerScript : MonoBehaviour {
                 animat.SetBool("Jumping", false);
             }
         }
+
+
+        /*If player presses shift, player character starts to run or slows down to walk.*/
  
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             if (isrunning == false)
             {
-                isrunning = true;
-                speed = 2f;
+                isrunning = true;              
                 animat.SetFloat("Speed", speed);
                 animat.SetBool("Running", isrunning);
             }else{
-                isrunning = false;
-                speed = 1f;
+                isrunning = false;     
                 animat.SetFloat("Speed", speed);
                 animat.SetBool("Running", isrunning);
             }
@@ -220,7 +219,8 @@ public class PlayerScript : MonoBehaviour {
         Raycasting();
     }
 
-
+    /*Method for climbing ledgeds. This method is called by animation directly. Animation itself is invoked by button 
+     press*/
     void climbUp() {
         animat.SetBool("Climbing", false);
         if (facingRight == true)
@@ -241,38 +241,39 @@ public class PlayerScript : MonoBehaviour {
        
     }
 
+    /*Method for climbing ledgeds down. This method is called by animation directly. Animation itself is invoked by button 
+     press*/
 
-    void climbDown() {         
-            climbPosition = GetComponent<Transform>().position;
+    void climbDown() {
+        animat.SetBool("Climb Down", false);
+        climbPosition = GetComponent<Transform>().position;
             if (facingRight == true)
             {
                 rotator.rotateLeft();
-                GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y - 0.5f, 0);
+                rotator.rotateLeft();
+            GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y - 0.5f, 0);
             }
             else
             {
-                rotator.rotateLeft();
+                rotator.rotateRight();
+                rotator.rotateRight();
                 GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y - 0.5f, 0);
             }
-        
+        turnAround();      
     }
 
-
+    /*Method for jumping. Specific animations call this jumping during animation itself*/
     void Jump() {
       
-        if (isrunning == false || GetComponent<Rigidbody2D>().velocity.y ==0)     
-               
-        {          
-            jumpHeight = new Vector3(0, 3, 0);
+        if (isrunning == false || GetComponent<Rigidbody2D>().velocity.y ==0){          
+            jumpHeight = new Vector3(0, 2.2f, 0);
             GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);        
         }
-        else
-        {
-            jumpHeight = new Vector3(0, 6, 0);
-            GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);         
+           if(isrunning==true){
+            jumpHeight = new Vector3(0, 2.5f, 0);
+            GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);
         }
         Debug.Log("Jump");
-
     }
 
 
