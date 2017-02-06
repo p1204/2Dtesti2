@@ -26,7 +26,7 @@ public class PlayerScript : MonoBehaviour {
     public Transform LedgeCheck1;
     public Transform LedgeCheck2;
     public Transform LedgeCheck3;
-    public float ledgeradius = 0.5f;
+    public float ledgeradius = 0.005f;
     public float groundradius = 0.01f;
     public Vector2 jumpHeight;
     public Vector3 climbPosition;
@@ -41,6 +41,8 @@ public class PlayerScript : MonoBehaviour {
     public bool rightTouchingWall;
     List<string> Inventory = new List<string>();
     private bool inventoryOpen;
+    GameObject level;
+    Rotate rotator;
 
 
     // Use this for initialization
@@ -51,30 +53,68 @@ public class PlayerScript : MonoBehaviour {
         InventoryCanvas.gameObject.SetActive(false);
         inventoryOpen = false;
         animat = GetComponent<Animator>();
-        facingRight = true;
+        level = GameObject.Find("demoLevelBase");
+        rotator = level.GetComponent<Rotate>();
+
     }
 
-    void FixedUpdate() {   
+    void FixedUpdate() {
         isgrounded = Physics2D.OverlapCircle(groundCheck.position, groundradius, groundIs);
+        isledge1 = Physics2D.OverlapCircle(LedgeCheck1.position, ledgeradius, Ledge1);
+        isledge2 = Physics2D.OverlapCircle(LedgeCheck2.position, ledgeradius, Ledge2);
         animat.SetBool("Ground", isgrounded);
         animat.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y));
-        if (GetComponent<Rigidbody2D>().velocity.y <-0.4f)
+        if (GetComponent<Rigidbody2D>().velocity.y <-1f && isgrounded==false)
         {
             isfalling = true;
             animat.SetBool("Jumping", false);
             animat.SetBool("Falling",isfalling);
-        }else {
+        }
+        if (GetComponent<Rigidbody2D>().velocity.y == 0) {
             isfalling = false;
             animat.SetBool("Falling", isfalling);
+
+        }
+        if (ishanging == true || isgrounded==true)
+        {
+            isfalling = false;
+            isjumping = false;
         }
     }
 
     void OnCollisionEnter2D(Collision2D coll) {
-        if (airtime > 2f) {
-            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
-            animat.SetBool("Dead", true);
+        if (isgrounded == true){
+            isjumping = false;
+            animat.SetBool("Jumping", false);
+            isfalling = false;
+            animat.SetBool("Falling", false);
         }
     }
+
+    public void turnAround() { 
+
+        bool facing = facingRight;
+       
+        //if boolean from player script is true that player is touching left wall you cannot turn more to the left anymore.
+        if ( facing == true)
+            {             
+                Vector3 newScale = GameObject.Find("Player").transform.localScale;
+                newScale.x *= -1;
+                GameObject.Find("Player").transform.localScale = newScale;
+                facingRight = false;        
+            }    
+         
+            if(facing==false){
+                Vector3 newScale = GameObject.Find("Player").transform.localScale;
+                newScale.x *= -1;
+                GameObject.Find("Player").transform.localScale = newScale;
+                facingRight = true;             
+          }
+        animat.SetBool("Turning", false);
+
+    }
+
+
    
     // Update is called once per frame
     void Update(){
@@ -83,36 +123,42 @@ public class PlayerScript : MonoBehaviour {
         else
             airtime = 0f;
 
-        if (Input.GetKey(KeyCode.D) && ishanging == false)
-        {        
-            
-            player.SetTrigger("Left");         
-        }
-
-        if (Input.GetKey(KeyCode.F))
+        if (Input.GetKey(KeyCode.A) && ishanging == false )
         {
-           // Code to interract with object like terminals
+            //if boolean from player script is true that player is touching left wall you cannot turn more to the left anymore.
+            if (facingRight == true)
+            {
+                Debug.Log("Turning left");
+                animat.SetBool("Turning", true);
+            }
+
+          
+            if(facingRight==false && rightTouchingWall==false) {
+                Debug.Log("Moving left");
+                rotator.rotateLeft();
+            }           
         }
 
-        if (Input.GetKey(KeyCode.A) && ishanging==false)
-        {     
-            
-            player.SetTrigger("Right");        
+        if (Input.GetKey(KeyCode.D) && ishanging == false && animat.GetBool("Climbing")==false)
+        {
+            //if boolean from player script is true that player is touching left wall you cannot turn more to the left anymore.
+            if (facingRight == false)
+            {
+                Debug.Log("Turning right");
+                animat.SetBool("Turning", true);
+            }
+           if(facingRight == true && rightTouchingWall == false)
+            {
+                Debug.Log("Moving right");
+                rotator.rotateRight();
+            }
         }
-       
-        if (Input.GetKey(KeyCode.W) && ishanging == true) {
+
+        if (Input.GetKey(KeyCode.W) && ishanging == true && animat.GetBool("Climbing") == false) {
             ishanging = false;
-            animat.SetBool("Hanging", ishanging);      
-            if (facingRight == true) { 
-                GetComponent<Rigidbody2D>().constraints &= ~RigidbodyConstraints2D.FreezePositionX;         
-                GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
-                GetComponent<Rigidbody2D>().constraints &= ~RigidbodyConstraints2D.FreezePositionY;                   
-            }
-        else {
-                GetComponent<Rigidbody2D>().constraints &= ~RigidbodyConstraints2D.FreezePositionX;        
-                GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
-                GetComponent<Rigidbody2D>().constraints &= ~RigidbodyConstraints2D.FreezePositionY;                          
-            }
+            animat.SetBool("Hanging", ishanging);
+            animat.SetBool("Climbing", true);
+            Debug.Log("Climbing up");
         }
 
         if (Input.GetKey(KeyCode.S) && ishanging==true) {
@@ -123,40 +169,29 @@ public class PlayerScript : MonoBehaviour {
             isfalling = true;
             animat.SetBool("Falling", isfalling);
         }
-        if (Input.GetKeyDown(KeyCode.S) && isgrounded==true)
+
+        if (Input.GetKeyDown(KeyCode.S) && isgrounded== true)
         {
-            Debug.Log("Climb");
             isledge3 = Physics2D.OverlapCircle(LedgeCheck3.position, ledgeradius, Ledge3);
             if (isledge3 == false) {
-                climbPosition = GetComponent<Transform>().position;
-                if(facingRight == true)
-                    GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y -1, 0);
-                else
-                    GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y - 1, 0);
+                Debug.Log("Climb down");
+                //animat.SetBool("Climbing Down", true);
+                climbDown();
             }
+
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isgrounded==true)
-        {        
-            if (isrunning == false)
-            {
-                //Debug.Log("Jump");
-                jumpHeight = new Vector3(0,1,0);
-                GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);
+        {
+            isjumping = true;
+            if (GetComponent<Rigidbody2D>().velocity.y == 0)
                 animat.SetBool("Jumping", true);
-            }
-            else {
-                //Debug.Log("Runningjump");
-                jumpHeight = new Vector3(0, 1.2f, 0);
-                GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);
-                animat.SetBool("Jumping", true);
-            }
+            else
+                Jump();
         }
 
-        if (Input.GetKey(KeyCode.Space))
-        {
-            isledge1 = Physics2D.OverlapCircle(LedgeCheck1.position, ledgeradius, Ledge1);
-            isledge2 = Physics2D.OverlapCircle(LedgeCheck2.position, ledgeradius, Ledge2);
+        if (Input.GetKey(KeyCode.Space)){
+           
             if (isledge1 == false && isledge2 == true && isgrounded == false)
             {
                 GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
@@ -184,10 +219,68 @@ public class PlayerScript : MonoBehaviour {
         }
         Raycasting();
     }
+
+
+    void climbUp() {
+        animat.SetBool("Climbing", false);
+        if (facingRight == true)
+            {
+                Vector3 climbPosition = GetComponent<Transform>().position;
+                GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y + 0.6f, 0);
+                rotator.transform.Rotate(Vector3.forward * -2.2f);
+            }
+            else
+            {
+                Vector3 climbPosition = GetComponent<Transform>().position;
+                GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y + 0.6f, 0);
+                rotator.transform.Rotate(Vector3.forward * +2.2f);
+            }
+        GetComponent<Rigidbody2D>().constraints &= ~RigidbodyConstraints2D.FreezePositionX;
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+        GetComponent<Rigidbody2D>().constraints &= ~RigidbodyConstraints2D.FreezePositionY;
+       
+    }
+
+
+    void climbDown() {         
+            climbPosition = GetComponent<Transform>().position;
+            if (facingRight == true)
+            {
+                rotator.rotateLeft();
+                GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y - 0.5f, 0);
+            }
+            else
+            {
+                rotator.rotateLeft();
+                GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y - 0.5f, 0);
+            }
+        
+    }
+
+
+    void Jump() {
+      
+        if (isrunning == false || GetComponent<Rigidbody2D>().velocity.y ==0)     
+               
+        {          
+            jumpHeight = new Vector3(0, 3, 0);
+            GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);        
+        }
+        else
+        {
+            jumpHeight = new Vector3(0, 6, 0);
+            GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);         
+        }
+        Debug.Log("Jump");
+
+    }
+
+
+
     void ShowInventory()
     {
         //open inventory list element
-        //make ui element of the list
+        //make ui element of the list 
         if (!inventoryOpen)
         {
             inventoryOpen = true;

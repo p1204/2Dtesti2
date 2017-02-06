@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 10762f219b07e934ca841383a4492c43
+timeCreated: 1486283269
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: turn01_0
+    21300002: turn01_1
+    21300004: turn01_2
+    21300006: turn01_3
+    21300008: turn01_4
+    21300010: turn01_5
+    21300012: turn01_6
+    21300014: turn01_7
+    21300016: turn01_8
+    21300018: turn01_9
+    21300020: turn01_10
+    21300022: turn01_11
+    21300024: turn01_12
+    21300026: turn01_13
+    21300028: turn01_14
+    21300030: turn01_15
+    21300032: turn01_16
+    21300034: turn01_17
+    21300036: turn01_18
+    21300038: turn01_19
+    21300040: turn01_20
+    21300042: turn01_21
+    21300044: turn01_22
+    21300046: turn01_23
+    21300048: turn01_24
+    21300050: turn01_25
+    21300052: turn01_26
+    21300054: turn01_27
+    21300056: turn01_28
+    21300058: turn01_29
+    21300060: turn01_30
+    21300062: turn01_31
+    21300064: turn01_32
+    21300066: turn01_33
+    21300068: turn01_34
+    21300070: turn01_35
+    21300072: turn01_36
+    21300074: turn01_37
+    21300076: turn01_38
+    21300078: turn01_39
+    21300080: turn01_40
+    21300082: turn01_41
+    21300084: turn01_42
+    21300086: turn01_43
+    21300088: turn01_44
+    21300090: turn01_45
+    21300092: turn01_46
+    21300094: turn01_47
+    21300096: turn01_48
+    21300098: turn01_49
+    21300100: turn01_50
+    21300102: turn01_51
+    21300104: turn01_52
+    21300106: turn01_53
+    21300108: turn01_54
+    21300110: turn01_55
+    21300112: turn01_56
+    21300114: turn01_57
+    21300116: turn01_58
+    21300118: turn01_59
+    21300120: turn01_60
+    21300122: turn01_61
+    21300124: turn01_62
+    21300126: turn01_63
+    21300128: turn01_64
+    21300130: turn01_65
+    21300132: turn01_66
+    21300134: turn01_67
+    21300136: turn01_68
+    21300138: turn01_69
+    21300140: turn01_70
+    21300142: turn01_71
+    21300144: turn01_72
+    21300146: turn01_73
+    21300148: turn01_74
+    21300150: turn01_75
+    21300152: turn01_76
+    21300154: turn01_77
+    21300156: turn01_78
+    21300158: turn01_79
+    21300160: turn01_80
+    21300162: turn01_81
+    21300164: turn01_82
+    21300166: turn01_83
+    21300168: turn01_84
+    21300170: turn01_85
+    21300172: turn01_86
+    21300174: turn01_87
+    21300176: turn01_88
+    21300178: turn01_89
+    21300180: turn01_90
+    21300182: turn01_91
+    21300184: turn01_92
+    21300186: turn01_93
+    21300188: turn01_94
+    21300190: turn01_95
+    21300192: turn01_96
+    21300194: turn01_97
+    21300196: turn01_98
+    21300198: turn01_99
+    21300200: turn01_100
+    21300202: turn01_101
+    21300204: turn01_102
+    21300206: turn01_103
+    21300208: turn01_104
+    21300210: turn01_105
+    21300212: turn01_106
+    21300214: turn01_107
+    21300216: turn01_108
+    21300218: turn01_109
+    21300220: turn01_110
+    21300222: turn01_111
+    21300224: turn01_112
+    21300226: turn01_113
+    21300228: turn01_114
+    21300230: turn01_115
+    21300232: turn01_116
+    21300234: turn01_117
+    21300236: turn01_118
+    21300238: turn01_119
+    21300240: turn01_120
+    21300242: turn01_121
+    21300244: turn01_122
+    21300246: turn01_123
+    21300248: turn01_124
+    21300250: turn01_125
+    21300252: turn01_126
+    21300254: turn01_127
+    21300256: turn01_128
+    21300258: turn01_129
+    21300260: turn01_130
+    21300262: turn01_131
+    21300264: turn01_132
+    21300266: turn01_133
+    21300268: turn01_134
+    21300270: turn01_135
+    21300272: turn01_136
+    21300274: turn01_137
+    21300276: turn01_138
+    21300278: turn01_139
+    21300280: turn01_140
+    21300282: turn01_141
+    21300284: turn01_142
+    21300286: turn01_143
+    21300288: turn01_144
+    21300290: turn01_145
+    21300292: turn01_146
+    21300294: turn01_147
+    21300296: turn01_148
+    21300298: turn01_149
+    21300300: turn01_150
+    21300302: turn01_151
+    21300304: turn01_152
+    21300306: turn01_153
+    21300308: turn01_154
+    21300310: turn01_155
+    21300312: turn01_156
+    21300314: turn01_157
+    21300316: turn01_158
+    21300318: turn01_159
+    21300320: turn01_160
+    21300322: turn01_161
+    21300324: turn01_162
+    21300326: turn01_163
+    21300328: turn01_164
+    21300330: turn01_165
+    21300332: turn01_166
+    21300334: turn01_167
+    21300336: turn01_168
+    21300338: turn01_169
+    21300340: turn01_170
+    21300342: turn01_171
+    21300344: turn01_172
+    21300346: turn01_173
+    21300348: turn01_174
+    21300350: turn01_175
+    21300352: turn01_176
+    21300354: turn01_177
+    21300356: turn01_178
+    21300358: turn01_179
+    21300360: turn01_180
+    21300362: turn01_181
+    21300364: turn01_182
+    21300366: turn01_183
+    21300368: turn01_184
+    21300370: turn01_185
+    21300372: turn01_186
+    21300374: turn01_187
+    21300376: turn01_188
+    21300378: turn01_189
+    21300380: turn01_190
+    21300382: turn01_191
+    21300384: turn01_192
+    21300386: turn01_193
+    21300388: turn01_194
+    21300390: turn01_195
+    21300392: turn01_196
+    21300394: turn01_197
+    21300396: turn01_198
+    21300398: turn01_199
+    21300400: turn01_200
+    21300402: turn01_201
+    21300404: turn01_202
+    21300406: turn01_203
+    21300408: turn01_204
+    21300410: turn01_205
+    21300412: turn01_206
+    21300414: turn01_207
+    21300416: turn01_208
+    21300418: turn01_209
+    21300420: turn01_210
+    21300422: turn01_211
+    21300424: turn01_212
+    21300426: turn01_213
+    21300428: turn01_214
+    21300430: turn01_215
+    21300432: turn01_216
+    21300434: turn01_217
+    21300436: turn01_218
+    21300438: turn01_219
+    21300440: turn01_220
+    21300442: turn01_221
+    21300444: turn01_222
+    21300446: turn01_223
+    21300448: turn01_224
+    21300450: turn01_225
+    21300452: turn01_226
+    21300454: turn01_227
+    21300456: turn01_228
+    21300458: turn01_229
+    21300460: turn01_230
+    21300462: turn01_231
+    21300464: turn01_232
+    21300466: turn01_233
+    21300468: turn01_234
+    21300470: turn01_235
+    21300472: turn01_236
+    21300474: turn01_237
+    21300476: turn01_238
+    21300478: turn01_239
+    21300480: turn01_240
+    21300482: turn01_241
+    21300484: turn01_242
+    21300486: turn01_243
+    21300488: turn01_244
+    21300490: turn01_245
+    21300492: turn01_246
+    21300494: turn01_247
+    21300496: turn01_248
+    21300498: turn01_249
+    21300500: turn01_250
+    21300502: turn01_251
+    21300504: turn01_252
+    21300506: turn01_253
+    21300508: turn01_254
+    21300510: turn01_255
+    21300512: turn01_256
+    21300514: turn01_257
+    21300516: turn01_258
+    21300518: turn01_259
+    21300520: turn01_260
+    21300522: turn01_261
+    21300524: turn01_262
+    21300526: turn01_263
+    21300528: turn01_264
+    21300530: turn01_265
+    21300532: turn01_266
+    21300534: turn01_267
+    21300536: turn01_268
+    21300538: turn01_269
+    21300540: turn01_270
+    21300542: turn01_271
+    21300544: turn01_272
+    21300546: turn01_273
+    21300548: turn01_274
+    21300550: turn01_275
+    21300552: turn01_276
+    21300554: turn01_277
+    21300556: turn01_278
+    21300558: turn01_279
+    21300560: turn01_280
+    21300562: turn01_281
+    21300564: turn01_282
+    21300566: turn01_283
+    21300568: turn01_284
+    21300570: turn01_285
+    21300572: turn01_286
+    21300574: turn01_287
+    21300576: turn01_288
+    21300578: turn01_289
+    21300580: turn01_290
+    21300582: turn01_291
+    21300584: turn01_292
+    21300586: turn01_293
+    21300588: turn01_294
+    21300590: turn01_295
+    21300592: turn01_296
+    21300594: turn01_297
+    21300596: turn01_298
+    21300598: turn01_299
+    21300600: turn01_300
+    21300602: turn01_301
+    21300604: turn01_302
+    21300606: turn01_303
+    21300608: turn01_304
+    21300610: turn01_305
+    21300612: turn01_306
+    21300614: turn01_307
+    21300616: turn01_308
+    21300618: turn01_309
+    21300620: turn01_310
+    21300622: turn01_311
+    21300624: turn01_312
+    21300626: turn01_313
+    21300628: turn01_314
+    21300630: turn01_315
+    21300632: turn01_316
+    21300634: turn01_317
+    21300636: turn01_318
+    21300638: turn01_319
+    21300640: turn01_320
+    21300642: turn01_321
+    21300644: turn01_322
+    21300646: turn01_323
+    21300648: turn01_324
+    21300650: turn01_325
+    21300652: turn01_326
+    21300654: turn01_327
+    21300656: turn01_328
+    21300658: turn01_329
+    21300660: turn01_330
+    21300662: turn01_331
+    21300664: turn01_332
+    21300666: turn01_333
+    21300668: turn01_334
+    21300670: turn01_335
+    21300672: turn01_336
+    21300674: turn01_337
+    21300676: turn01_338
+    21300678: turn01_339
+    21300680: turn01_340
+    21300682: turn01_341
+    21300684: turn01_342
+    21300686: turn01_343
+    21300688: turn01_344
+    21300690: turn01_345
+    21300692: turn01_346
+    21300694: turn01_347
+    21300696: turn01_348
+    21300698: turn01_349
+    21300700: turn01_350
+    21300702: turn01_351
+    21300704: turn01_352
+    21300706: turn01_353
+    21300708: turn01_354
+    21300710: turn01_355
+    21300712: turn01_356
+    21300714: turn01_357
+    21300716: turn01_358
+    21300718: turn01_359
+    21300720: turn01_360
+    21300722: turn01_361
+    21300724: turn01_362
+    21300726: turn01_363
+    21300728: turn01_364
+    21300730: turn01_365
+    21300732: turn01_366
+    21300734: turn01_367
+    21300736: turn01_368
+    21300738: turn01_369
+    21300740: turn01_370
+    21300742: turn01_371
+    21300744: turn01_372
+    21300746: turn01_373
+    21300748: turn01_374
+    21300750: turn01_375
+    21300752: turn01_376
+    21300754: turn01_377
+    21300756: turn01_378
+    21300758: turn01_379
+    21300760: turn01_380
+    21300762: turn01_381
+    21300764: turn01_382
+    21300766: turn01_383
+    21300768: turn01_384
+    21300770: turn01_385
+    21300772: turn01_386
+    21300774: turn01_387
+    21300776: turn01_388
+    21300778: turn01_389
+    21300780: turn01_390
+    21300782: turn01_391
+    21300784: turn01_392
+    21300786: turn01_393
+    21300788: turn01_394
+    21300790: turn01_395
+    21300792: turn01_396
+    21300794: turn01_397
+    21300796: turn01_398
+    21300798: turn01_399
+    21300800: turn01_400
+    21300802: turn01_401
+    21300804: turn01_402
+    21300806: turn01_403
+    21300808: turn01_404
+    21300810: turn01_405
+    21300812: turn01_406
+    21300814: turn01_407
+    21300816: turn01_408
+    21300818: turn01_409
+    21300820: turn01_410
+    21300822: turn01_411
+    21300824: turn01_412
+    21300826: turn01_413
+    21300828: turn01_414
+    21300830: turn01_415
+    21300832: turn01_416
+    21300834: turn01_417
+    21300836: turn01_418
+    21300838: turn01_419
+    21300840: turn01_420
+    21300842: turn01_421
+    21300844: turn01_422
+    21300846: turn01_423
+    21300848: turn01_424
+    21300850: turn01_425
+    21300852: turn01_426
+    21300854: turn01_427
+    21300856: turn01_428
+    21300858: turn01_429
+    21300860: turn01_430
+    21300862: turn01_431
+    21300864: turn01_432
+    21300866: turn01_433
+    21300868: turn01_434
+    21300870: turn01_435
+    21300872: turn01_436
+    21300874: turn01_437
+    21300876: turn01_438
+    21300878: turn01_439
+    21300880: turn01_440
+    21300882: turn01_441
+    21300884: turn01_442
+    21300886: turn01_443
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 95
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: turn01_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 20
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 20
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 20
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 21
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_4
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 0
+        width: 22
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 24
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 0
+        width: 26
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_7
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 0
+        width: 26
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_8
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 0
+        width: 27
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_9
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 0
+        width: 29
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_10
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 0
+        width: 27
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_11
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 0
+        width: 28
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_12
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 0
+        width: 29
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_13
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 0
+        width: 30
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_14
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 0
+        width: 32
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_15
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 0
+        width: 33
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_16
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 0
+        width: 36
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_17
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 0
+        width: 32
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_18
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 32
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_19
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 0
+        width: 29
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_20
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 0
+        width: 28
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_21
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 0
+        width: 29
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_22
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 0
+        width: 27
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_23
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 0
+        width: 29
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_24
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 0
+        width: 28
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_25
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 0
+        width: 26
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_26
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 0
+        width: 25
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_27
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 0
+        width: 24
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_28
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 0
+        width: 21
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_29
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 0
+        width: 20
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_30
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 0
+        width: 21
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_31
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 0
+        width: 21
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: turn01_32
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 0
+        width: 21
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,916 @@
+fileFormatVersion: 2
+guid: 069af3a7d6cdf604d91f4cba74ac6609
+timeCreated: 1486315385
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: commonledgejump02a2_0
+    21300002: commonledgejump02a2_1
+    21300004: commonledgejump02a2_2
+    21300006: commonledgejump02a2_3
+    21300008: commonledgejump02a2_4
+    21300010: commonledgejump02a2_5
+    21300012: commonledgejump02a2_6
+    21300014: commonledgejump02a2_7
+    21300016: commonledgejump02a2_8
+    21300018: commonledgejump02a2_9
+    21300020: commonledgejump02a2_10
+    21300022: commonledgejump02a2_11
+    21300024: commonledgejump02a2_12
+    21300026: commonledgejump02a2_13
+    21300028: commonledgejump02a2_14
+    21300030: commonledgejump02a2_15
+    21300032: commonledgejump02a2_16
+    21300034: commonledgejump02a2_17
+    21300036: commonledgejump02a2_18
+    21300038: commonledgejump02a2_19
+    21300040: commonledgejump02a2_20
+    21300042: commonledgejump02a2_21
+    21300044: commonledgejump02a2_22
+    21300046: commonledgejump02a2_23
+    21300048: commonledgejump02a2_24
+    21300050: commonledgejump02a2_25
+    21300052: commonledgejump02a2_26
+    21300054: commonledgejump02a2_27
+    21300056: commonledgejump02a2_28
+    21300058: commonledgejump02a2_29
+    21300060: commonledgejump02a2_30
+    21300062: commonledgejump02a2_31
+    21300064: commonledgejump02a2_32
+    21300066: commonledgejump02a2_33
+    21300068: commonledgejump02a2_34
+    21300070: commonledgejump02a2_35
+    21300072: commonledgejump02a2_36
+    21300074: commonledgejump02a2_37
+    21300076: commonledgejump02a2_38
+    21300078: commonledgejump02a2_39
+    21300080: commonledgejump02a2_40
+    21300082: commonledgejump02a2_41
+    21300084: commonledgejump02a2_42
+    21300086: commonledgejump02a2_43
+    21300088: commonledgejump02a2_44
+    21300090: commonledgejump02a2_45
+    21300092: commonledgejump02a2_46
+    21300094: commonledgejump02a2_47
+    21300096: commonledgejump02a2_48
+    21300098: commonledgejump02a2_49
+    21300100: commonledgejump02a2_50
+    21300102: commonledgejump02a2_51
+    21300104: commonledgejump02a2_52
+    21300106: commonledgejump02a2_53
+    21300108: commonledgejump02a2_54
+    21300110: commonledgejump02a2_55
+    21300112: commonledgejump02a2_56
+    21300114: commonledgejump02a2_57
+    21300116: commonledgejump02a2_58
+    21300118: commonledgejump02a2_59
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: commonledgejump02a2_0
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 142
+        width: 20
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 141
+        width: 20
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 142
+        width: 20
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_3
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 141
+        width: 20
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 142
+        width: 21
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_5
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 141
+        width: 24
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_6
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 142
+        width: 25
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_7
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 143
+        width: 27
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_8
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 141
+        width: 27
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_9
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 141
+        width: 32
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_10
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 142
+        width: 34
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_11
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 144
+        width: 34
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_12
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 143
+        width: 36
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_13
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 143
+        width: 36
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_14
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 142
+        width: 34
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_15
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 142
+        width: 31
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_16
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 142
+        width: 31
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_17
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 144
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_18
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 144
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_19
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 143
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_20
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 143
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_21
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 142
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_22
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 140
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_23
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 142
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_24
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 142
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_25
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 143
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_26
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 143
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_27
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 142
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_28
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 143
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_29
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 143
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_30
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 144
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_31
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 142
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_32
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 143
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_33
+      rect:
+        serializedVersion: 2
+        x: 3335
+        y: 141
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_34
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 142
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_35
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 141
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_36
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 143
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_37
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 141
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_38
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 141
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_39
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 142
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_40
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 140
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_41
+      rect:
+        serializedVersion: 2
+        x: 4099
+        y: 132
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_42
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 128
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_43
+      rect:
+        serializedVersion: 2
+        x: 4291
+        y: 127
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_44
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 122
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_45
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 119
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_46
+      rect:
+        serializedVersion: 2
+        x: 4574
+        y: 117
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_47
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 123
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_48
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 120
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_49
+      rect:
+        serializedVersion: 2
+        x: 4871
+        y: 120
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_50
+      rect:
+        serializedVersion: 2
+        x: 4965
+        y: 120
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_51
+      rect:
+        serializedVersion: 2
+        x: 5057
+        y: 116
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_52
+      rect:
+        serializedVersion: 2
+        x: 5155
+        y: 119
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_53
+      rect:
+        serializedVersion: 2
+        x: 5253
+        y: 117
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_54
+      rect:
+        serializedVersion: 2
+        x: 5342
+        y: 119
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_55
+      rect:
+        serializedVersion: 2
+        x: 5439
+        y: 118
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_56
+      rect:
+        serializedVersion: 2
+        x: 5530
+        y: 115
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_57
+      rect:
+        serializedVersion: 2
+        x: 5627
+        y: 113
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_58
+      rect:
+        serializedVersion: 2
+        x: 5727
+        y: 111
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commonledgejump02a2_59
+      rect:
+        serializedVersion: 2
+        x: 5825
+        y: 107
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: 174e89f12caa0fb4a85ef0bfd9aa4214
+timeCreated: 1486283399
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idlejump02_0
+    21300002: idlejump02_1
+    21300004: idlejump02_2
+    21300006: idlejump02_3
+    21300008: idlejump02_4
+    21300010: idlejump02_5
+    21300012: idlejump02_6
+    21300014: idlejump02_7
+    21300016: idlejump02_8
+    21300018: idlejump02_9
+    21300020: idlejump02_10
+    21300022: idlejump02_11
+    21300024: idlejump02_12
+    21300026: idlejump02_13
+    21300028: idlejump02_14
+    21300030: idlejump02_15
+    21300032: idlejump02_16
+    21300034: idlejump02_17
+    21300036: idlejump02_18
+    21300038: idlejump02_19
+    21300040: idlejump02_20
+    21300042: idlejump02_21
+    21300044: idlejump02_22
+    21300046: idlejump02_23
+    21300048: idlejump02_24
+    21300050: idlejump02_25
+    21300052: idlejump02_26
+    21300054: idlejump02_27
+    21300056: idlejump02_28
+    21300058: idlejump02_29
+    21300060: idlejump02_30
+    21300062: idlejump02_31
+    21300064: idlejump02_32
+    21300066: idlejump02_33
+    21300068: idlejump02_34
+    21300070: idlejump02_35
+    21300072: idlejump02_36
+    21300074: idlejump02_37
+    21300076: idlejump02_38
+    21300078: idlejump02_39
+    21300080: idlejump02_40
+    21300082: idlejump02_41
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idlejump02_0
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 11
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_1
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 0
+        width: 12
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 11
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_3
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 12
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 13
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_5
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 0
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_6
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 15
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_7
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_8
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 0
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_9
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 16
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_10
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 7
+        width: 14
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_11
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 16
+        width: 13
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_12
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 23
+        width: 17
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_13
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 22
+        width: 17
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_14
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 20
+        width: 20
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 16
+        width: 17
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_16
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 10
+        width: 17
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_17
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 4
+        width: 13
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_18
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 14
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_19
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 0
+        width: 18
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_20
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 0
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_21
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 0
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_22
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 18
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_23
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 0
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_24
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 0
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_25
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 0
+        width: 15
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_26
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_27
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 0
+        width: 16
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_28
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 0
+        width: 15
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_29
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 0
+        width: 15
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_30
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 0
+        width: 14
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_31
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 0
+        width: 13
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_32
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 0
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_33
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 39
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_34
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 41
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_35
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 0
+        width: 10
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_36
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 0
+        width: 10
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_37
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 0
+        width: 10
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_38
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 0
+        width: 10
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_39
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 0
+        width: 10
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_40
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 0
+        width: 10
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idlejump02_41
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 0
+        width: 11
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
