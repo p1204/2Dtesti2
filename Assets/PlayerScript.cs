@@ -55,10 +55,13 @@ public class PlayerScript : MonoBehaviour {
         animat = GetComponent<Animator>();
         level = GameObject.Find("demoLevelBase");
         rotator = level.GetComponent<Rotate>();
-
     }
 
     void FixedUpdate() {
+       /* Physics2D.gravity = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        Vector3 dir = GameObject.Find("Center").transform.position - GameObject.Find("Player").transform.position;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        GameObject.Find("Player").transform.localEulerAngles = new Vector3(0, 0, (angle - 90));*/
         isgrounded = Physics2D.OverlapCircle(groundCheck.position, groundradius, groundIs);
         isledge1 = Physics2D.OverlapCircle(LedgeCheck1.position, ledgeradius, Ledge1);
         isledge2 = Physics2D.OverlapCircle(LedgeCheck2.position, ledgeradius, Ledge2);
@@ -81,6 +84,19 @@ public class PlayerScript : MonoBehaviour {
             isfalling = false;
             isjumping = false;
         }
+
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            if (isledge1 == false && isledge2 == true && isgrounded == false)
+            {
+                GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+                climbPosition = GetComponent<Transform>().position;
+                ishanging = true;
+                animat.SetBool("Hanging", ishanging);
+                animat.SetBool("Jumping", false);
+            }
+        }
     }
 
     void OnCollisionEnter2D(Collision2D coll) {
@@ -92,31 +108,6 @@ public class PlayerScript : MonoBehaviour {
         }
     }
 
-    public void turnAround() { 
-
-        bool facing = facingRight;
-       
-        //if boolean from player script is true that player is touching left wall you cannot turn more to the left anymore.
-        if ( facing == true)
-            {             
-                Vector3 newScale = GameObject.Find("Player").transform.localScale;
-                newScale.x *= -1;
-                GameObject.Find("Player").transform.localScale = newScale;
-                facingRight = false;        
-            }    
-         
-            if(facing==false){
-                Vector3 newScale = GameObject.Find("Player").transform.localScale;
-                newScale.x *= -1;
-                GameObject.Find("Player").transform.localScale = newScale;
-                facingRight = true;             
-          }
-        animat.SetBool("Turning", false);
-
-    }
-
-
-   
     // Update is called once per frame
     void Update(){
         if (isfalling==true)
@@ -165,7 +156,6 @@ public class PlayerScript : MonoBehaviour {
             ishanging = false;
             animat.SetBool("Hanging", ishanging);
             GetComponent<Rigidbody2D>().constraints &= ~RigidbodyConstraints2D.FreezePositionY;
-            GetComponent<Rigidbody2D>().constraints &= ~RigidbodyConstraints2D.FreezePositionX;
             isfalling = true;
             animat.SetBool("Falling", isfalling);
         }
@@ -189,17 +179,6 @@ public class PlayerScript : MonoBehaviour {
                 Jump();
         }
 
-        if (Input.GetKey(KeyCode.Space)){        
-            if (isledge1 == false && isledge2 == true && isgrounded == false)
-            {
-                GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
-                climbPosition = GetComponent<Transform>().position;
-                ishanging = true;
-                animat.SetBool("Hanging", ishanging);
-                animat.SetBool("Jumping", false);
-            }
-        }
-
 
         /*If player presses shift, player character starts to run or slows down to walk.*/
  
@@ -217,6 +196,27 @@ public class PlayerScript : MonoBehaviour {
             }
         }
         Raycasting();
+    }
+
+    public void turnAround(){
+        bool facing = facingRight;
+        //if boolean from player script is true that player is touching left wall you cannot turn more to the left anymore.
+        if (facing == true)
+        {
+            Vector3 newScale = GameObject.Find("Player").transform.localScale;
+            newScale.x *= -1;
+            GameObject.Find("Player").transform.localScale = newScale;
+            facingRight = false;
+        }
+
+        if (facing == false)
+        {
+            Vector3 newScale = GameObject.Find("Player").transform.localScale;
+            newScale.x *= -1;
+            GameObject.Find("Player").transform.localScale = newScale;
+            facingRight = true;
+        }
+        animat.SetBool("Turning", false);
     }
 
     /*Method for climbing ledgeds. This method is called by animation directly. Animation itself is invoked by button 
@@ -265,7 +265,7 @@ public class PlayerScript : MonoBehaviour {
     /*Method for jumping. Specific animations call this jumping during animation itself*/
     void Jump() {
       
-        if (isrunning == false || GetComponent<Rigidbody2D>().velocity.y ==0){          
+        if (isrunning == false ){          
             jumpHeight = new Vector3(0, 2.2f, 0);
             GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);        
         }
