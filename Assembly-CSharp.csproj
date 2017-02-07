@@ -53,7 +53,6 @@
      <Compile Include="Assets\Scripts\armRotation.cs" />
      <Compile Include="Assets\Scripts\wallInteraction.cs" />
      <Compile Include="Assets\moveUI.cs" />
-     <Compile Include="Assets\script.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

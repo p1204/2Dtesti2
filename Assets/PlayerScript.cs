@@ -226,13 +226,13 @@ public class PlayerScript : MonoBehaviour {
         if (facingRight == true)
             {
                 Vector3 climbPosition = GetComponent<Transform>().position;
-                GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y + 0.6f, 0);
+                GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y + 0.45f, 0);
                 rotator.transform.Rotate(Vector3.forward * -2.2f);
             }
             else
             {
                 Vector3 climbPosition = GetComponent<Transform>().position;
-                GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y + 0.6f, 0);
+                GetComponent<Transform>().position = new Vector3(climbPosition.x, climbPosition.y + 0.45f, 0);
                 rotator.transform.Rotate(Vector3.forward * +2.2f);
             }
         GetComponent<Rigidbody2D>().constraints &= ~RigidbodyConstraints2D.FreezePositionX;
